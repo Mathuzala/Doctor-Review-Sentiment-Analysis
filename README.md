@@ -24,7 +24,7 @@ The project follows these key steps:
 The project includes a Streamlit application that allows users to input doctor reviews and receive sentiment predictions. This application uses the trained logistic regression model and TF-IDF vectorizer for sentiment analysis.
 Repository Contents
 
-* sentiment_analysis.ipynb: Jupyter notebook containing the analysis and model training.
+* DoctorReviews Analysis.ipynb: Jupyter notebook containing the analysis and model training.
 * app.py: Streamlit application script.
 * logistic_regression_model.pkl: Trained Logistic Regression model.
 * tfidf_vectorizer.pkl: Trained TF-IDF Vectorizer.
