@@ -15,8 +15,8 @@ def preprocess_text(text):
 
 #Load your trained model and TF-IDF vectorizer
 #For demonstration, replace these with the paths to your saved models
-model = joblib.load('C:\\Users\\zz881\\Desktop\\Analytics\\DoctorReviews\\logistic_regression_model.pkl')
-tfidf_vectorizer = joblib.load('C:\\Users\\zz881\\Desktop\\Analytics\\DoctorReviews\\tfidf_vectorizer.pkl')
+model = joblib.load('your_custom_path\\logistic_regression_model.pkl')
+tfidf_vectorizer = joblib.load('your_custom_path\\tfidf_vectorizer.pkl')
 
 #Streamlit application
 st.title('Doctor Review Sentiment Analysis')
@@ -36,4 +36,4 @@ if st.button('Predict Sentiment'):
     sentiment = 'Positive' if prediction == 1 else 'Negative'
     st.write(f'Predicted Sentiment: {sentiment}')
 
-#Run the app with: streamlit run app.py
+#Run the app with - streamlit run app.py
